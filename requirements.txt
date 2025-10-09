@@ -1,0 +1,15 @@
+torch
+torchvision
+torchaudio
+transformers
+diffusers
+accelerate
+peft
+gradio
+opencv-python
+pillow
+numpy
+tqdm
+scipy
+sentencepiece
+PyYAML
