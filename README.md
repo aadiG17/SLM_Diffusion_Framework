@@ -7,7 +7,7 @@ Implementation of Small Language Model (SLM) guided Diffusion-based Image Genera
 1. Setup on mac completed   ![alt text](https://github.com/aadiG17/SLM_Diffusion_Framework/blob/main/env-setup.png)
 2. Loaded SLM
 3. Loaded LLM
-4. Connected them
-5. Run a test img generation prompt
-6. Got generated img output.
+4. Connected them  ![alt text](https://github.com/aadiG17/SLM_Diffusion_Framework/blob/main/models-loading.png)
+5. Run a test img generation prompt  ![alt text](https://github.com/aadiG17/SLM_Diffusion_Framework/blob/main/models-loading.png)
+6. Got generated img output.  ![alt text](https://github.com/aadiG17/SLM_Diffusion_Framework/blob/main/generated_output_img.png)
 
