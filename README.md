@@ -3,6 +3,7 @@ Implementation of Small Language Model (SLM) guided Diffusion-based Image Genera
 
 ## Progress till now:
 0. Made all file directories and pipeline. ![alt text](https://github.com/aadiG17/SLM_Diffusion_Framework/blob/main/file-directories-structure.png)
+
 1. Setup on mac completed
 2. Loaded SLM
 3. Loaded LLM
