@@ -2,7 +2,7 @@ torch
 torchvision
 torchaudio
 transformers
-diffusers
+# diffusers
 accelerate
 peft
 gradio
@@ -13,3 +13,9 @@ tqdm
 scipy
 sentencepiece
 PyYAML
+# diffusers==0.27.2
+# huggingface-hub==0.24.5
+diffusers==0.26.3
+huggingface-hub==0.20.3
+
+
