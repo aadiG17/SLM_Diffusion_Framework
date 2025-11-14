@@ -1,0 +1,146 @@
+(base) cse-sdpl@cse-sdpl-HP-Z4-G5-Workstation-Desktop-PC:~/project-tests$ cd SLM_Diffusion_Framework/
+(base) cse-sdpl@cse-sdpl-HP-Z4-G5-Workstation-Desktop-PC:~/project-tests/SLM_Diffusion_Framework$ python test_pipeline_benchmark.py 
+🔹 Loading Small Language Model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+✅ SLM loaded on: CUDA
+ SLM loaded in 2.46 seconds.
+ CUDA Memory: 2202.19 MB allocated, 2296.38 MB reserved
+
+🔹 Loading Diffusion Model...
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+Loading pipeline components...:   0%|                                                                                                                           | 0/7 [00:00<?, ?it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:01<00:00,  4.58it/s]
+✅ Diffusion model loaded on: CUDA
+ Diffusion model loaded in 2.88 seconds.
+ CUDA Memory: 4968.39 MB allocated, 5024.78 MB reserved
+
+ Generating text with SLM...
+ Text generated in 0.59 seconds.
+ CUDA Memory: 4976.91 MB allocated, 5024.78 MB reserved
+
+ Generated Prompt:
+A cat wearing astronaut suit on Mars.
+
+2. "The Martian" (2015) - A group of astronauts stranded on Mars.
+
+
+
+ Generating image with Diffusion model...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:04<00:00, 10.65it/s]
+ Image saved as 'benchmark_output.png' in 5.03 seconds.
+ CUDA Memory: 4978.09 MB allocated, 6220.15 MB reserved
+
+⏱ Total pipeline runtime: 10.96 seconds.
+
+ Benchmark completed successfully.
+(base) cse-sdpl@cse-sdpl-HP-Z4-G5-Workstation-Desktop-PC:~/project-tests/SLM_Diffusion_Framework$ python test_pipeline_benchmark.py 
+🔹 Loading Small Language Model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+✅ SLM loaded on: CUDA
+ SLM loaded in 2.10 seconds.
+ CUDA Memory: 2202.19 MB allocated, 2296.38 MB reserved
+
+🔹 Loading Diffusion Model...
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+Loading pipeline components...:  43%|█████████████████████████████████████████████████▎                                                                 | 3/7 [00:00<00:00, 14.46it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 11.42it/s]
+✅ Diffusion model loaded on: CUDA
+ Diffusion model loaded in 1.96 seconds.
+ CUDA Memory: 4968.39 MB allocated, 5024.78 MB reserved
+
+ Generating text with SLM...
+ Text generated in 0.16 seconds.
+ CUDA Memory: 4976.91 MB allocated, 5024.78 MB reserved
+
+ Generated Prompt:
+A sun set scean near a lake.
+
+ Generating image with Diffusion model...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:04<00:00, 10.87it/s]
+ Image saved as 'benchmark_output.png' in 4.85 seconds.
+ CUDA Memory: 4978.09 MB allocated, 6220.15 MB reserved
+
+⏱ Total pipeline runtime: 9.07 seconds.
+
+ Benchmark completed successfully.
+(base) cse-sdpl@cse-sdpl-HP-Z4-G5-Workstation-Desktop-PC:~/project-tests/SLM_Diffusion_Framework$ python test_pipeline_benchmark.py 
+🔹 Loading Small Language Model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+✅ SLM loaded on: CUDA
+ SLM loaded in 2.09 seconds.
+ CUDA Memory: 2202.19 MB allocated, 2296.38 MB reserved
+
+🔹 Loading Diffusion Model...
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+Loading pipeline components...:  29%|████████████████████████████████▊                                                                                  | 2/7 [00:00<00:00,  9.96it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 10.21it/s]
+✅ Diffusion model loaded on: CUDA
+ Diffusion model loaded in 2.10 seconds.
+ CUDA Memory: 4968.39 MB allocated, 5024.78 MB reserved
+
+ Generating text with SLM...
+ Text generated in 0.16 seconds.
+ CUDA Memory: 4976.91 MB allocated, 5024.78 MB reserved
+
+ Generated Prompt:
+A sun set scean near a lake.
+
+ Generating image with Diffusion model...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:04<00:00, 10.92it/s]
+ Image saved as 'benchmark_output.png' in 4.85 seconds.
+ CUDA Memory: 4978.09 MB allocated, 6220.15 MB reserved
+
+⏱ Total pipeline runtime: 9.21 seconds.
+
+ Benchmark completed successfully.
+(base) cse-sdpl@cse-sdpl-HP-Z4-G5-Workstation-Desktop-PC:~/project-tests/SLM_Diffusion_Framework$ python test_pipeline_benchmark.py 
+🔹 Loading Small Language Model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+✅ SLM loaded on: CUDA
+ SLM loaded in 2.10 seconds.
+ CUDA Memory: 2202.19 MB allocated, 2296.38 MB reserved
+
+🔹 Loading Diffusion Model...
+Cannot initialize model with low cpu memory usage because `accelerate` was not found in the environment. Defaulting to `low_cpu_mem_usage=False`. It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
+```
+pip install accelerate
+```
+.
+Loading pipeline components...:  14%|████████████████▍                                                                                                  | 1/7 [00:00<00:01,  5.48it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+Loading pipeline components...: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 7/7 [00:00<00:00, 11.47it/s]
+✅ Diffusion model loaded on: CUDA
+ Diffusion model loaded in 1.96 seconds.
+ CUDA Memory: 4968.39 MB allocated, 5024.78 MB reserved
+
+ Generating text with SLM...
+ Text generated in 0.57 seconds.
+ CUDA Memory: 4976.91 MB allocated, 5024.78 MB reserved
+
+ Generated Prompt:
+A cat wearing astronaut suit on Mars.
+
+2. "The Martian" (2015) - A group of astronauts stranded on Mars.
+
+
+
+ Generating image with Diffusion model...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:04<00:00, 10.81it/s]
+ Image saved as 'benchmark_output.png' in 4.86 seconds.
+ CUDA Memory: 4978.09 MB allocated, 6220.15 MB reserved
+
+⏱ Total pipeline runtime: 9.49 seconds.
+
+ Benchmark completed successfully.
+(base) cse-sdpl@cse-sdpl-HP-Z4-G5-Workstation-Desktop-PC:~/project-tests/SLM_Diffusion_Framework$ 
