@@ -36,6 +36,8 @@ def test_pipeline_benchmark():
     # prompt = "A cat wearing robotic suit."
     prompt = "A cat wearing astronaut suit on Mars."
 
+    # prompt = "A sun set scean near a lake."
+
     print("\n Generating text with SLM...")
     start = time.time()
     inputs = tokenizer(prompt, return_tensors="pt").to(slm.device)
@@ -51,7 +53,7 @@ def test_pipeline_benchmark():
     print("\n Generating image with Diffusion model...")
     start = time.time()
     image = diffusion(generated_text).images[0]
-    image.save("cat_on _mars2.png")
+    image.save("mars_cat.png")
     print(f" Image saved as 'benchmark_output.png' in {time.time() - start:.2f} seconds.")
     print_memory_usage()
 
