@@ -1,4 +1,4 @@
-# SLM_Diffusion_Framework(Incomplet Doc, will update soon)
+# SLM_Diffusion_Framework(Incomplete Doc, will update soon)
 Implementation of Small Language Model (SLM) guided Diffusion-based Image Generation and Editing Framework.
 
 ## Progress till now:
